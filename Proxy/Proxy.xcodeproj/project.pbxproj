@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7750FE1D99FB34009F5264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7750FD1D99FB34009F5264 /* main.m */; };
+		FA7751061D99FB5C009F5264 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7751051D99FB5C009F5264 /* Weather.m */; };
+		FA7751091D99FC79009F5264 /* RealWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7751081D99FC79009F5264 /* RealWeather.m */; };
+		FA77510C1D99FD94009F5264 /* ProxyWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = FA77510B1D99FD94009F5264 /* ProxyWeather.m */; };
+		FA77510F1D99FEBB009F5264 /* GenericProxyWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = FA77510E1D99FEBB009F5264 /* GenericProxyWeather.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA7750F81D99FB34009F5264 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA7750FA1D99FB34009F5264 /* Proxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7750FD1D99FB34009F5264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA7751041D99FB5C009F5264 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		FA7751051D99FB5C009F5264 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		FA7751071D99FC79009F5264 /* RealWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealWeather.h; sourceTree = "<group>"; };
+		FA7751081D99FC79009F5264 /* RealWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealWeather.m; sourceTree = "<group>"; };
+		FA77510A1D99FD94009F5264 /* ProxyWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyWeather.h; sourceTree = "<group>"; };
+		FA77510B1D99FD94009F5264 /* ProxyWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyWeather.m; sourceTree = "<group>"; };
+		FA77510D1D99FEBB009F5264 /* GenericProxyWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericProxyWeather.h; sourceTree = "<group>"; };
+		FA77510E1D99FEBB009F5264 /* GenericProxyWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericProxyWeather.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7750F71D99FB34009F5264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7750F11D99FB34009F5264 = {
+			isa = PBXGroup;
+			children = (
+				FA7750FC1D99FB34009F5264 /* Proxy */,
+				FA7750FB1D99FB34009F5264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7750FB1D99FB34009F5264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7750FA1D99FB34009F5264 /* Proxy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7750FC1D99FB34009F5264 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				FA7750FD1D99FB34009F5264 /* main.m */,
+				FA7751041D99FB5C009F5264 /* Weather.h */,
+				FA7751051D99FB5C009F5264 /* Weather.m */,
+				FA7751071D99FC79009F5264 /* RealWeather.h */,
+				FA7751081D99FC79009F5264 /* RealWeather.m */,
+				FA77510A1D99FD94009F5264 /* ProxyWeather.h */,
+				FA77510B1D99FD94009F5264 /* ProxyWeather.m */,
+				FA77510D1D99FEBB009F5264 /* GenericProxyWeather.h */,
+				FA77510E1D99FEBB009F5264 /* GenericProxyWeather.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7750F91D99FB34009F5264 /* Proxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7751011D99FB34009F5264 /* Build configuration list for PBXNativeTarget "Proxy" */;
+			buildPhases = (
+				FA7750F61D99FB34009F5264 /* Sources */,
+				FA7750F71D99FB34009F5264 /* Frameworks */,
+				FA7750F81D99FB34009F5264 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proxy;
+			productName = Proxy;
+			productReference = FA7750FA1D99FB34009F5264 /* Proxy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7750F21D99FB34009F5264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA7750F91D99FB34009F5264 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA7750F51D99FB34009F5264 /* Build configuration list for PBXProject "Proxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA7750F11D99FB34009F5264;
+			productRefGroup = FA7750FB1D99FB34009F5264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7750F91D99FB34009F5264 /* Proxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7750F61D99FB34009F5264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7751091D99FC79009F5264 /* RealWeather.m in Sources */,
+				FA7751061D99FB5C009F5264 /* Weather.m in Sources */,
+				FA7750FE1D99FB34009F5264 /* main.m in Sources */,
+				FA77510F1D99FEBB009F5264 /* GenericProxyWeather.m in Sources */,
+				FA77510C1D99FD94009F5264 /* ProxyWeather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA7750FF1D99FB34009F5264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7751001D99FB34009F5264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA7751021D99FB34009F5264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA7751031D99FB34009F5264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7750F51D99FB34009F5264 /* Build configuration list for PBXProject "Proxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7750FF1D99FB34009F5264 /* Debug */,
+				FA7751001D99FB34009F5264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7751011D99FB34009F5264 /* Build configuration list for PBXNativeTarget "Proxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7751021D99FB34009F5264 /* Debug */,
+				FA7751031D99FB34009F5264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7750F21D99FB34009F5264 /* Project object */;
+}

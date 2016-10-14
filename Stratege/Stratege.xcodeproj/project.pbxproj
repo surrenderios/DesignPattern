@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABE63AD1DAC715500F87EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63AC1DAC715500F87EE1 /* main.m */; };
+		FABE63B51DAC71BA00F87EE1 /* TravelStratege.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63B41DAC71BA00F87EE1 /* TravelStratege.m */; };
+		FABE63B81DAC71F600F87EE1 /* TrainTravelStratege.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63B71DAC71F600F87EE1 /* TrainTravelStratege.m */; };
+		FABE63BB1DAC720100F87EE1 /* AirTravelStratege.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63BA1DAC720100F87EE1 /* AirTravelStratege.m */; };
+		FABE63BE1DAC720D00F87EE1 /* ShipTravelStratege.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63BD1DAC720D00F87EE1 /* ShipTravelStratege.m */; };
+		FABE63C11DAC721B00F87EE1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE63C01DAC721B00F87EE1 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FABE63A71DAC715500F87EE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FABE63A91DAC715500F87EE1 /* Stratege */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stratege; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABE63AC1DAC715500F87EE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABE63B31DAC71BA00F87EE1 /* TravelStratege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelStratege.h; sourceTree = "<group>"; };
+		FABE63B41DAC71BA00F87EE1 /* TravelStratege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelStratege.m; sourceTree = "<group>"; };
+		FABE63B61DAC71F600F87EE1 /* TrainTravelStratege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTravelStratege.h; sourceTree = "<group>"; };
+		FABE63B71DAC71F600F87EE1 /* TrainTravelStratege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTravelStratege.m; sourceTree = "<group>"; };
+		FABE63B91DAC720100F87EE1 /* AirTravelStratege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirTravelStratege.h; sourceTree = "<group>"; };
+		FABE63BA1DAC720100F87EE1 /* AirTravelStratege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirTravelStratege.m; sourceTree = "<group>"; };
+		FABE63BC1DAC720D00F87EE1 /* ShipTravelStratege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipTravelStratege.h; sourceTree = "<group>"; };
+		FABE63BD1DAC720D00F87EE1 /* ShipTravelStratege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipTravelStratege.m; sourceTree = "<group>"; };
+		FABE63BF1DAC721B00F87EE1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FABE63C01DAC721B00F87EE1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABE63A61DAC715500F87EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABE63A01DAC715500F87EE1 = {
+			isa = PBXGroup;
+			children = (
+				FABE63AB1DAC715500F87EE1 /* Stratege */,
+				FABE63AA1DAC715500F87EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABE63AA1DAC715500F87EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABE63A91DAC715500F87EE1 /* Stratege */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABE63AB1DAC715500F87EE1 /* Stratege */ = {
+			isa = PBXGroup;
+			children = (
+				FABE63AC1DAC715500F87EE1 /* main.m */,
+				FABE63BF1DAC721B00F87EE1 /* Person.h */,
+				FABE63C01DAC721B00F87EE1 /* Person.m */,
+				FABE63B31DAC71BA00F87EE1 /* TravelStratege.h */,
+				FABE63B41DAC71BA00F87EE1 /* TravelStratege.m */,
+				FABE63B61DAC71F600F87EE1 /* TrainTravelStratege.h */,
+				FABE63B71DAC71F600F87EE1 /* TrainTravelStratege.m */,
+				FABE63B91DAC720100F87EE1 /* AirTravelStratege.h */,
+				FABE63BA1DAC720100F87EE1 /* AirTravelStratege.m */,
+				FABE63BC1DAC720D00F87EE1 /* ShipTravelStratege.h */,
+				FABE63BD1DAC720D00F87EE1 /* ShipTravelStratege.m */,
+			);
+			path = Stratege;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABE63A81DAC715500F87EE1 /* Stratege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE63B01DAC715500F87EE1 /* Build configuration list for PBXNativeTarget "Stratege" */;
+			buildPhases = (
+				FABE63A51DAC715500F87EE1 /* Sources */,
+				FABE63A61DAC715500F87EE1 /* Frameworks */,
+				FABE63A71DAC715500F87EE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stratege;
+			productName = Stratege;
+			productReference = FABE63A91DAC715500F87EE1 /* Stratege */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABE63A11DAC715500F87EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FABE63A81DAC715500F87EE1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FABE63A41DAC715500F87EE1 /* Build configuration list for PBXProject "Stratege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FABE63A01DAC715500F87EE1;
+			productRefGroup = FABE63AA1DAC715500F87EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABE63A81DAC715500F87EE1 /* Stratege */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABE63A51DAC715500F87EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE63C11DAC721B00F87EE1 /* Person.m in Sources */,
+				FABE63BE1DAC720D00F87EE1 /* ShipTravelStratege.m in Sources */,
+				FABE63B51DAC71BA00F87EE1 /* TravelStratege.m in Sources */,
+				FABE63B81DAC71F600F87EE1 /* TrainTravelStratege.m in Sources */,
+				FABE63AD1DAC715500F87EE1 /* main.m in Sources */,
+				FABE63BB1DAC720100F87EE1 /* AirTravelStratege.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FABE63AE1DAC715500F87EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FABE63AF1DAC715500F87EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FABE63B11DAC715500F87EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FABE63B21DAC715500F87EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABE63A41DAC715500F87EE1 /* Build configuration list for PBXProject "Stratege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE63AE1DAC715500F87EE1 /* Debug */,
+				FABE63AF1DAC715500F87EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABE63B01DAC715500F87EE1 /* Build configuration list for PBXNativeTarget "Stratege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE63B11DAC715500F87EE1 /* Debug */,
+				FABE63B21DAC715500F87EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABE63A11DAC715500F87EE1 /* Project object */;
+}
